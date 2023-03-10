@@ -1,0 +1,15 @@
+body {
+    font-size: 16px;
+} 
+.icon-book, .icon-user, .icon-car {
+    margin-right: 5px;
+}
+.icon-book {
+    font-size: 30px;
+}
+#navBar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}

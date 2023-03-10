@@ -1,0 +1,52 @@
+.title-profile-dashboard {
+    margin-top: -15px;
+}
+.title-profile-user {
+    margin-top: 20px;
+}
+.information-title-profile {
+    margin-top: 15px;
+}
+.banner-profile {
+    background-color: #d5d5d558;
+    width: 100%;
+    height: 130px;
+}
+.container-image-profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -65px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.image-profile {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#form-edit-profile {
+    padding-bottom: 10px;
+}
+.icon-edit-profile {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: #3d2cb1;
+}
+.modal-body {
+    gap: 5px;
+}
+.btn-update-photo {
+    color: #fff;
+}
+.btn-update-photo:hover {
+    color: #fff;
+}
