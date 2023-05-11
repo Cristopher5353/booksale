@@ -77,7 +77,8 @@ class BookRepository {
         return  DB::table('books')
                 ->select('books.id AS id', 'books.title AS title', 'books.description AS description', 
                         DB::raw('(books.price - books.discount) AS price'),
-                        DB::raw('(SELECT book_images.image FROM book_images WHERE book_images.book_id = ' . $id . ' ORDER BY book_images.position LIMIT 1) AS image') )
+                        DB::raw('(SELECT book_images.image FROM book_images WHERE book_images.book_id = :id ORDER BY book_images.position LIMIT 1) AS image') )
+                ->setBindings(['id' => $id])
                 ->first();
     } 
 
